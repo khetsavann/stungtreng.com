@@ -25,9 +25,8 @@ img { width: 100%; display: block; }
 }
 .logo { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: white; display: flex; align-items: center; gap: 10px; }
 .logo-img {
-  height: 36px;
+  height: 40px;
   width: auto;
-  border-radius: 4px;     /* optional: rounds corners slightly */
   object-fit: contain;
   display: block;
 }
@@ -158,4 +157,5 @@ img { width: 100%; display: block; }
   .hamburger { display: block; }
   .about-section { grid-template-columns: 1fr; }
   .about-image { display: none; }
+  .logo-img { height: 32px; }
 }
