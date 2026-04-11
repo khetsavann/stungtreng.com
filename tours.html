@@ -1,1 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tours — Kungkea Travel & Tours | Stung Treng, Cambodia</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tours.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVIGATION (identical to index.html) -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.PNG" alt="Kungkea Travel logo" class="logo-img">
+        Kungkea Travel & Tours
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html" class="active">Tours</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="page-hero-eyebrow">Stung Treng, Cambodia</p>
+      <h1>Our Tours</h1>
+      <p>Small groups. Local guides. Unforgettable Mekong experiences.</p>
+    </div>
+  </section>
+
+  <!-- FILTER BAR -->
+  <section class="filter-bar">
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">All Tours</button>
+      <button class="filter-btn" data-filter="half-day">Half Day</button>
+      <button class="filter-btn" data-filter="full-day">Full Day</button>
+      <button class="filter-btn" data-filter="multi-day">Multi-Day</button>
+    </div>
+  </section>
+
+  <!-- TOURS LIST -->
+  <section class="tours-list">
+    <div class="tours-list-container">
+
+      <!-- TOUR 1 -->
+      <div class="tour-row" data-category="half-day">
+        <div class="tour-row-image">
+          <img src="images/tour-1.jpg" alt="Mekong Boat Cruise Through Flooded Forests">
+          <span class="tour-badge">Half Day</span>
+        </div>
+        <div class="tour-row-content">
+          <h2>Mekong Boat Cruise Through Flooded Forests</h2>
+          <div class="tour-meta">
+            <span>⏱ 4–5 Hours</span>
+            <span>👥 Small Group</span>
+            <span>🌅 Morning Departure</span>
+          </div>
+          <p>Glide through the extraordinary flooded forests of the Mekong River on a private longtail boat. This is one of Southeast Asia's most unique river ecosystems — a labyrinth of submerged trees, mirror-still waterways, and abundant birdlife that few travellers ever witness.</p>
+          <p>Your local guide will navigate through hidden channels between remote river islands, stopping to spot wildlife, visit a local fishing family, and experience the stillness of one of Cambodia's last wild river frontiers.</p>
+          <div class="tour-includes">
+            <h4>Included</h4>
+            <ul>
+              <li>✅ Private longtail boat</li>
+              <li>✅ English-speaking local guide</li>
+              <li>✅ Hotel pickup & drop-off in Stung Treng town</li>
+              <li>✅ Drinking water</li>
+              <li>✅ Life jackets</li>
+            </ul>
+          </div>
+          <div class="tour-row-footer">
+            <div class="tour-price-block">
+              <span class="price-from">from</span>
+              <span class="price-amount">$60</span>
+              <span class="price-per">per person</span>
+            </div>
+            <a href="contact.html" class="btn-primary">Book This Tour</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="tour-divider">
+
+      <!-- TOUR 2 -->
+      <div class="tour-row" data-category="half-day">
+        <div class="tour-row-image">
+          <img src="images/tour-2.jpg" alt="Kayaking & Boat Cruise Through Mekong Flooded Forests">
+          <span class="tour-badge">Half Day</span>
+        </div>
+        <div class="tour-row-content">
+          <h2>Kayaking & Boat Cruise Through Mekong Flooded Forests</h2>
+          <div class="tour-meta">
+            <span>⏱ 4–5 Hours</span>
+            <span>👥 Small Group</span>
+            <span>🌅 Morning Departure</span>
+          </div>
+          <p>Combine the thrill of kayaking with a relaxing boat cruise through the Mekong's flooded forest. Paddle your own kayak through narrow jungle waterways inaccessible by motor boat — then switch to the longtail for wider stretches and island hopping.</p>
+          <p>This tour is perfect for active travellers who want both adventure and serenity. No prior kayaking experience needed — the channels are calm and beginner-friendly.</p>
+          <div class="tour-includes">
+            <h4>Included</h4>
+            <ul>
+              <li>✅ Kayak hire & paddle equipment</li>
+              <li>✅ Private longtail boat</li>
+              <li>✅ English-speaking local guide</li>
+              <li>✅ Hotel pickup & drop-off in Stung Treng town</li>
+              <li>✅ Drinking water & life jackets</li>
+            </ul>
+          </div>
+          <div class="tour-row-footer">
+            <div class="tour-price-block">
+              <span class="price-from">from</span>
+              <span class="price-amount">$60</span>
+              <span class="price-per">per person</span>
+            </div>
+            <a href="contact.html" class="btn-primary">Book This Tour</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="tour-divider">
+
+      <!-- TOUR 3 -->
+      <div class="tour-row" data-category="full-day">
+        <div class="tour-row-image">
+          <img src="images/tour-3.jpg" alt="Waterfalls & Mekong Boat Cruises">
+          <span class="tour-badge">Full Day</span>
+        </div>
+        <div class="tour-row-content">
+          <h2>Waterfalls & Mekong Boat Cruises</h2>
+          <div class="tour-meta">
+            <span>⏱ Full Day</span>
+            <span>👥 Small Group</span>
+            <span>🍚 Lunch Included</span>
+          </div>
+          <p>The best of Stung Treng in a single day. Start with a morning boat cruise through the Mekong's flooded forests, then venture out to the province's thundering waterfalls — a hidden gem unknown to most Cambodia travellers.</p>
+          <p>Swim beneath the falls, enjoy a fresh Khmer lunch prepared by a local family, and return to town by late afternoon. This is the tour most guests say was their favourite day in Cambodia.</p>
+          <div class="tour-includes">
+            <h4>Included</h4>
+            <ul>
+              <li>✅ Private longtail boat & road transport</li>
+              <li>✅ English-speaking local guide</li>
+              <li>✅ Hotel pickup & drop-off</li>
+              <li>✅ Fresh Khmer lunch</li>
+              <li>✅ Drinking water & life jackets</li>
+            </ul>
+          </div>
+          <div class="tour-row-footer">
+            <div class="tour-price-block">
+              <span class="price-from">from</span>
+              <span class="price-amount">$125</span>
+              <span class="price-per">per person</span>
+            </div>
+            <a href="contact.html" class="btn-primary">Book This Tour</a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="tour-divider">
+
+      <!-- TOUR 4 -->
+      <div class="tour-row" data-category="multi-day">
+        <div class="tour-row-image">
+          <img src="images/tour-4.jpg" alt="The Ultimate Nature & Food Tour">
+          <span class="tour-badge tour-badge--gold">3 Nights</span>
+        </div>
+        <div class="tour-row-content">
+          <h2>The Ultimate Nature & Food Tour</h2>
+          <div class="tour-meta">
+            <span>⏱ 3 Nights / 4 Days</span>
+            <span>👥 Small Group</span>
+            <span>🍚 All Meals Included</span>
+          </div>
+          <p>The definitive Stung Treng experience. Over four days, you'll explore every dimension of this extraordinary region — flooded forests by kayak and boat, thundering waterfalls, cycling through river islands, and deep-diving into authentic Khmer food culture with local families.</p>
+          <p>Accommodation is in a comfortable local guesthouse in Stung Treng town. Each day brings a different adventure — no two days repeat. This is not a packaged tour, it's a genuine immersion into one of Cambodia's most overlooked and beautiful provinces.</p>
+          <div class="tour-includes">
+            <h4>Included</h4>
+            <ul>
+              <li>✅ 3 nights accommodation in Stung Treng</li>
+              <li>✅ All meals (breakfasts, lunches & dinners)</li>
+              <li>✅ All boat, kayak & cycling activities</li>
+              <li>✅ Private English-speaking guide throughout</li>
+              <li>✅ All transport & hotel pickups</li>
+              <li>✅ Drinking water daily</li>
+            </ul>
+          </div>
+          <div class="tour-row-footer">
+            <div class="tour-price-block">
+              <span class="price-from">from</span>
+              <span class="price-amount">$295</span>
+              <span class="price-per">per person</span>
+            </div>
+            <a href="contact.html" class="btn-primary">Book This Tour</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BOTTOM CTA -->
+  <section class="cta-banner">
+    <h2>Not Sure Which Tour?</h2>
+    <p>Send us a message and we'll recommend the best option for your time and group.</p>
+    <a href="contact.html" class="btn-primary">Contact Us</a>
+  </section>
+
+  <!-- FOOTER (identical to index.html) -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h4>Kungkea Travel & Tours</h4>
+        <p>#208, Street 2, Trapeang Pring Village</p>
+        <p>Stung Treng Province, Cambodia</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>📱 +855 96 766 4626 (WhatsApp & Telegram)</p>
+        <p>📧 kungkeatravelandtours@gmail.com</p>
+      </div>
+    </div>
+    <p class="footer-copy">© 2026 Kungkea Travel & Tours. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Filter functionality
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const tourRows = document.querySelectorAll('.tour-row');
+    const dividers = document.querySelectorAll('.tour-divider');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        tourRows.forEach(row => {
+          if (filter === 'all' || row.dataset.category === filter) {
+            row.style.display = 'grid';
+          } else {
+            row.style.display = 'none';
+          }
+        });
+        // Hide dividers cleanly
+        dividers.forEach(d => d.style.display = 'none');
+        const visible = [...tourRows].filter(r => r.style.display !== 'none');
+        visible.forEach((row, i) => {
+          if (i < visible.length - 1) {
+            row.nextElementSibling.style.display = 'block';
+          }
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
 
