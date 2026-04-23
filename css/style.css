@@ -43,7 +43,7 @@ img { width: 100%; display: block; }
 .hero {
   height: 100vh; min-height: 600px;
   position: relative;
-  background: url('images/hero.jpg') center/cover no-repeat;
+  background: url('images/mekong.webp') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
