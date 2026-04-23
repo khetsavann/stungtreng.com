@@ -483,6 +483,12 @@ img { width: 100%; display: block; }
 
 /* ===== MOBILE ===== */
 @media (max-width: 768px) {
+    .hero-video {
+    display: none;
+  }
+  .hero {
+    background: url('images/mekong.webp') center/cover no-repeat;
+  }
   .reviews-grid { grid-template-columns: 1fr; }
   .review-card--featured { grid-column: span 1; }
   .reviews-stars-summary { flex-direction: column; gap: 4px; }
