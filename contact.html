@@ -99,9 +99,9 @@
             <label for="tour">Which Tour Are You Interested In?</label>
             <select id="tour" name="tour">
               <option value="" disabled selected>Select a tour...</option>
-              <option value="mekong-boat-cruise">Mekong Boat Cruise Through Flooded Forests (Half Day — from $60)</option>
-              <option value="kayaking-boat-cruise">Kayaking & Boat Cruise Through Flooded Forests (Half Day — from $60)</option>
-              <option value="waterfalls-boat-cruise">Waterfalls & Mekong Boat Cruises (Full Day — from $125)</option>
+              <option value="boat-cruise">Boat Cruise Through Flooded Forests (Half Day — from $45)</option>
+              <option value="kayaking-boat-cruise">Kayaking & Boat Cruise Through Flooded Forests (Half Day — from $65)</option>
+              <option value="waterfalls-boat-cruise">Waterfalls & Mekong Boat Cruises (Full Day — from $85)</option>
               <option value="ultimate-nature-food">The Ultimate Nature & Food Tour (3 Nights — from $295)</option>
               <option value="not-sure">Not sure yet — need a recommendation</option>
             </select>
@@ -131,7 +131,7 @@
           <span class="success-icon">✅</span>
           <h3>Message Sent!</h3>
           <p>Thank you — we'll reply within 24 hours. For a faster response, message us directly on WhatsApp.</p>
-          <a href="https://wa.me/855967664626" target="_blank" class="btn-whatsapp">Open WhatsApp Chat</a>
+          <a href="https://wa.me/85596766626" target="_blank" class="btn-whatsapp">Open WhatsApp Chat</a>
         </div>
       </div>
 
@@ -145,7 +145,7 @@
             <span class="info-icon">📱</span>
             <div>
               <p class="info-label">WhatsApp & Telegram</p>
-              <a href="https://wa.me/855967664626" target="_blank" class="info-value">+855 96 766 4626</a>
+              <a href="https://wa.me/85596766626" target="_blank" class="info-value">+855 96 766 4626</a>
             </div>
           </div>
 
@@ -175,7 +175,7 @@
         </div>
 
         <!-- WhatsApp CTA -->
-        <a href="https://wa.me/855967664626" target="_blank" class="whatsapp-card">
+        <a href="https://wa.me/85596766626" target="_blank" class="whatsapp-card">
           <span class="wa-icon">💬</span>
           <div>
             <p class="wa-title">Prefer to chat directly?</p>
@@ -189,31 +189,25 @@
           <h3>Our Tours</h3>
           <ul class="quick-tour-list">
             <li>
-              <a href="tours.html">
+              <a href="tours/boat-cruise.html">
                 <span>🚤 Mekong Boat Cruise</span>
                 <span class="tour-link-price">from $45</span>
               </a>
             </li>
             <li>
-              <a href="tours.html">
+              <a href="tours/kayaking-boat-cruise.html">
                 <span>🛶 Kayaking & Boat Cruise</span>
                 <span class="tour-link-price">from $65</span>
               </a>
             </li>
             <li>
-              <a href="tours.html">
-                <span>🚤 Boat Cruises & Waterfalls </span>
+              <a href="tours/waterfalls-boat-cruise.html">
+                <span>💦 Waterfalls & Boat Cruises</span>
                 <span class="tour-link-price">from $85</span>
               </a>
             </li>
             <li>
-              <a href="tours.html">
-                <span>💦 Waterfalls & Two Boat Cruises</span>
-                <span class="tour-link-price">from $125</span>
-              </a>
-            </li>
-            <li>
-              <a href="tours.html">
+              <a href="tours/ultimate-nature-food.html">
                 <span>🌿 Ultimate Nature & Food Tour</span>
                 <span class="tour-link-price">from $295</span>
               </a>
@@ -274,6 +268,11 @@
       document.getElementById('contactForm').style.display = 'none';
       document.getElementById('formSuccess').style.display = 'flex';
     }
+
+    // Preselect the tour when arriving from a tour page (contact.html?tour=boat-cruise)
+    const tourParam = params.get('tour');
+    const tourSelect = document.getElementById('tour');
+    if (tourParam && tourSelect) tourSelect.value = tourParam;
   </script>
 
 </body>
