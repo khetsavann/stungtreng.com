@@ -43,7 +43,7 @@ img { width: 100%; display: block; }
 .hero {
   height: 100vh; min-height: 600px;
   position: relative;
-  background: url('images/mekong.webp') center/cover no-repeat;
+  background: url('../images/mekong.webp') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,7 +288,7 @@ img { width: 100%; display: block; }
 
 /* ===== CTA BANNER ===== */
 .cta-banner {
-  background: url('images/hero.jpg') center/cover fixed;
+  background: url('../images/hero.jpg') center/cover fixed;
   position: relative; padding: 100px 24px; text-align: center;
 }
 .cta-banner::before {
@@ -487,7 +487,7 @@ img { width: 100%; display: block; }
     display: none;
   }
   .hero {
-    background: url('images/mekong.webp') center/cover no-repeat;
+    background: url('../images/mekong.webp') center/cover no-repeat;
   }
   .reviews-grid { grid-template-columns: 1fr; }
   .review-card--featured { grid-column: span 1; }
