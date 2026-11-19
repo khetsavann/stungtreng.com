@@ -62,7 +62,7 @@
 .td-book-price span { font-size: 0.95rem; font-weight: 400; opacity: 0.7; }
 .td-book-note { font-size: 0.9rem; margin: 8px 0 18px; }
 .td-book .btn-primary { display: block; }
-.td-book-alt { font-size: 0.9rem; margin: 10px 0 0; }
+.td-book-alt { font-size: 0.9rem; margin: 8px 0 0; }
 .td-whatsapp {
   display: block; background: var(--green, #2C6E49); color: #fff;
   padding: 14px 36px; border-radius: 4px;
