@@ -63,8 +63,13 @@
 .td-book-note { font-size: 0.9rem; margin: 8px 0 18px; }
 .td-book .btn-primary { display: block; }
 .td-book-alt { font-size: 0.9rem; margin: 14px 0 0; }
-.td-whatsapp { color: var(--green, #2C6E49); font-weight: 700; text-decoration: none; }
-.td-whatsapp:hover { text-decoration: underline; }
+.td-whatsapp {
+  display: block; background: var(--green, #2C6E49); color: #fff;
+  padding: 14px 36px; border-radius: 4px;
+  font-size: 0.9rem; letter-spacing: 0.1em; text-decoration: none;
+  transition: background 0.2s;
+}
+.td-whatsapp:hover { background: #235a3b; }
 
 /* Other tours */
 .td-more { max-width: 1100px; margin: 0 auto; padding: 20px 20px 50px; }
