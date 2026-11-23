@@ -38,6 +38,10 @@
 .td-includes ul { list-style: none; padding: 0; margin: 0; }
 .td-includes li { padding: 6px 0; }
 
+/* What to bring list */
+.td-what-to-bring ul { list-style: none; padding: 0; margin: 0; }
+.td-what-to-bring li { padding: 6px 0; }
+
 /* Price table */
 .td-price-table { width: 100%; max-width: 420px; border-collapse: collapse; }
 .td-price-table th, .td-price-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid rgba(0,0,0,.12); }
